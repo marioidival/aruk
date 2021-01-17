@@ -1,9 +1,10 @@
 # aruk
+
 Another GTD App!
 
+## Entities
 
-## Entidades
-
+```text
 User:
     - email: `String`
 
@@ -31,11 +32,20 @@ Thing:
     - start date: `DateTime`
     - due date: `DateTime`
     - completed `DateTime`
-        (é um campo data, mostrando quando acabou)
+```
 
-
-## Tecnologias
+## Technologies
 
 ### Frontend
 
 VueJS + TypeScript + PWA + Vuetify
+
+### Backend
+
+#### business
+
+Rust
+
+#### api
+
+Rust + PostgreSQL + tide (web)
