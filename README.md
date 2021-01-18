@@ -25,13 +25,13 @@ Thing:
     - type: `Type`
     - state: `State`
     - parent: `Option<Thing>`
-    - Owner: `User`
+    - Owner: `Option<User>`
     - name: `String`
     - tags: `Vec<String>`
     - notes: `Vec<String>`
-    - start date: `DateTime`
-    - due date: `DateTime`
-    - completed `DateTime`
+    - start date: `usize`
+    - due date: `usize`
+    - completed `usize`
 ```
 
 ## Technologies
